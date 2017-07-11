@@ -1,0 +1,24 @@
+<header class="header">
+  <nav role="navigation">
+    <ul class="nav nav-pills pull-right">
+      <li><a href="/">Home Page</a></li>
+    </ul>
+  </nav>
+
+  <span class="logo"><h1>Welcome to my Blog</h1></span>
+</header>
+
+
+
+<br>
+<h1><%= @title1 %></h1>
+<header class = "header" style = "text-align: right;">Posted on: <%= @day1 %>/<%= @month1 %>/<%= @year1 %></header>
+<br>
+<img src= <%= @link1 %> alt="Image">
+<br>
+
+<p><%= @text1 %><p>
+
+<h5>Written by: <%=@author1%></h5>
+
+<br>

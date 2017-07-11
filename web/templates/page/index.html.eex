@@ -1,0 +1,49 @@
+<header class="header">
+  <nav role="navigation">
+    <ul class="nav nav-pills pull-right">
+      <li><a href="/hello/jude">First Page</a></li>
+    </ul>
+  </nav>
+
+  <span class="logo"><h1>Welcome to my Blog</h1></span>
+</header>
+
+
+
+
+<div class="jumbotron">
+  <h2>"Welcome to My Blog"</h2>
+  <p class="lead">This is the<br />home page of my test blog</p>
+</div>
+
+<!--<div class="row marketing">
+  <div class="col-lg-6">
+    <h4>Resources</h4>
+    <ul>
+      <li>
+        <a href="http://phoenixframework.org/docs/overview">Guides</a>
+      </li>
+      <li>
+        <a href="https://hexdocs.pm/phoenix">Docs</a>
+      </li>
+      <li>
+        <a href="https://github.com/phoenixframework/phoenix">Source</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-6">
+    <h4>Help</h4>
+    <ul>
+      <li>
+        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
+      </li>
+      <li>
+        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
+      </li>
+    </ul>
+  </div>
+</div>-->
