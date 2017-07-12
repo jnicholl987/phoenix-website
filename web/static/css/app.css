@@ -27,5 +27,16 @@ p{
     display: block;
 }
 
+.preview{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.buttonsize{
+    min-width: 50px;
+    min-height: 20px;
+
+}
+
 
 

@@ -1,5 +1,11 @@
 <h2>List of recent Posts</h2>
 
+<nav role="navigation">
+    <ul class="nav nav-pills pull-right">
+      <li><a href="/">Home Page</a></li>
+    </ul>
+</nav>
+
 
 
 <table class="table">
@@ -10,7 +16,7 @@
       <th>Author</th>
       
 
-      <th></th>
+      <th>Image</th>
     </tr>
   </thead>
   <tbody>
@@ -19,14 +25,17 @@
       <td><%= post.title %></td>
       <td><%= post.text %></td>
       <td><%= post.author %></td>
+      <td><img src= <%= post.link %> alt="" class = "preview"></td>
       
 
       <td class="text-right">
-        <%= link "Show", to: post_path(@conn, :show, post), class: "btn btn-default btn-xs" %>
+        <%= link "Show", to: post_path(@conn, :show, post), class: "btn btn-default btn-xs buttonsize" %>
         <br>
-        <%= link "Edit", to: post_path(@conn, :edit, post), class: "btn btn-default btn-xs" %>
         <br>
-        <%= link "Delete", to: post_path(@conn, :delete, post), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
+        <%= link "Edit", to: post_path(@conn, :edit, post), class: "btn btn-default btn-xs buttonsize" %>
+        <br>
+        <br>
+        <%= link "Delete", to: post_path(@conn, :delete, post), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs buttonsize" %>
       </td>
     </tr>
 <% end %>
