@@ -32,7 +32,7 @@
         <%= link "Show", to: post_path(@conn, :show, post), class: "btn btn-default btn-xs buttonsize" %>
         <br>
         <br>
-        <%= link "Edit", to: post_path(@conn, :edit, post), class: "btn btn-default btn-xs buttonsize" %>
+        <%= link "Edit", to: post_path(@conn, :edit, post), class: "btn btn-info btn-xs buttonsize" %>
         <br>
         <br>
         <%= link "Delete", to: post_path(@conn, :delete, post), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs buttonsize" %>
