@@ -14,6 +14,7 @@
 <div class="jumbotron">
   <h2>"Welcome to My Blog"</h2>
   <p class="lead">This is the<br />home page of my test blog</p>
+  
 </div>
 
 <!--<div class="row marketing">

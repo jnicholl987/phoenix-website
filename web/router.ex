@@ -17,8 +17,8 @@ defmodule Hello.Router do
     pipe_through :browser # Use the default browser stack
     get "/hello/:name", HelloController, :world
     
-    get "/", PageController, :index
-    resources "/posts", PostController
+    get "/", PostController, :homepage
+    resources "/adminpanel14", PostController
   end
 
   # Other scopes may use custom stacks.

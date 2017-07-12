@@ -1,0 +1,31 @@
+<header class="header">
+  
+
+  <!--<input type = "text" id = "passwordbox"></input>
+  <button id = "signin">Sign In</button>-->
+
+
+  <h1>Home Page</h1>
+
+</header>
+
+
+
+
+<div class="jumbotron">
+
+  <h2>Welcome to My Blog</h2>
+  <p class="lead">This is the home page of my blog.<br/>Below you can see all available posts</p>
+
+</div>
+
+<%= for post <- @posts do %>
+    
+      <h1><%= post.title %></h1>
+      <img src= <%= post.link %>  alt="">
+      <p><%= post.text %></p>
+      <h5>Posted by: <%= post.author %></h5>
+
+    <header class="header"></header>
+    
+<% end %>

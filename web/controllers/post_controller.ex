@@ -6,6 +6,12 @@ defmodule Hello.PostController do
   def index(conn, _params) do
     posts = Repo.all(Post)
     render(conn, "index.html", posts: posts)
+    
+  end
+
+  def homepage(conn, _params)do
+    posts = Repo.all(Post)
+    render(conn, "homepage.html", posts: posts)
   end
 
   def new(conn, _params) do
